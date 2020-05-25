@@ -1,0 +1,216 @@
+box-sizing:border-box a,
+a:focus,
+a:hover {
+    color: #fff
+}
+/* Body Structure */
+
+
+/*
+* Header
+*/
+
+nav {
+    background-color: #2D3D52!important;
+    width: 100%;
+    height: 66px;
+}
+
+.navbar {
+    margin-bottom: 5rem;
+    background-color: transparent;
+    opacity: 80%;
+}
+
+.navbar-brand {
+    margin-bottom: 0;
+}
+
+.navbar-brand .nav-link {
+    padding: .25rem 0;
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+}
+
+i {
+    color: #AF4925;
+}
+
+.hrefs-fonts {
+    font-size: 16px!important;
+}
+
+.left {
+    margin-bottom: -100px!important;
+}
+
+.cover-home {
+    margin-top: 200px!important;
+    background: #AF4925!important;
+    /* background-image: url("../images/vintage-wallpaper.png"); */
+    /* background-image: url("../images/plush-design-studio-q10VITrVYUM-unsplash.jpg");
+   */
+}
+
+.margin-bottom {
+    margin-bottom: 175px!important;
+}
+
+.margin-top {
+    margin-top: 300px!important;
+}
+
+.about {
+    color: #2D3D52;
+}
+
+.navbar-brand .nav-link:hover,
+.navbar-brand .nav-link:focus {
+    border-bottom-color: #fff;
+}
+
+.nav-masthead .nav-link+.nav-link {
+    margin-left: 2rem;
+}
+
+.nav-masthead .active {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+.material-icons {
+    display: inline-flex!important;
+    margin-left: 10px!important;
+    vertical-align: bottom;
+}
+/*
+* Cover
+*/
+
+.cover {
+    max-width: 100em;
+    padding: .75rem 1.25rem;
+    font-weight: 700;
+    z-index: 10;
+    opacity: 90%;
+    padding: 50px;
+    margin-bottom: 50px;
+    margin: 50px;
+    border-radius: 55px 55px 55px 55px;
+}
+
+.headshot {
+    width: 250px;
+}
+
+.brown {
+    background: #AF4925;
+    opacity: 100%;
+}
+
+.navy {
+    color: #2D3D52!important;
+}
+/*
+* Footer
+*/
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    text-decoration-color: none;
+    background: #F2997D !important;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    padding: 20px;
+    font-size: 24px;
+    z-index: 10;
+}
+/*
+* About
+*/
+
+h3 {
+    font-family: 'PT Serif', ;
+    color: #2d3d52;
+}
+
+h4 {
+    color: #bfbfbf4d;
+    text-align: left;
+}
+
+h5 {
+    /* color: #fff; */
+  color:  #AF4925
+}
+h6 {
+    color: #2d3d52;
+    font-size: 24px;
+    line-height: 1.25;
+}
+
+.social {
+    font-family: 'Oswald', sans-serif;
+    color: #2d3d52;
+    font-size: 16px!important;
+}
+
+.social-i {
+    color: #fff;
+    margin-right: 2px;
+}
+
+.img-style {
+    float: left;
+    margin-right: 100px!important;
+    border: .3px solid;
+    padding: 5px;
+    width: 100%;
+    height: 250px;
+}
+/*
+* Contact
+*/
+
+.margin-left {
+    margin-left: 10px;
+    font-size: 18x;
+}
+form {
+    color: gray
+}
+
+input {
+    color: #F2E5CC!important;
+    font-family: 'EB Garamond', serif;
+}
+
+.btn {
+    background-color: #2D3D52!important;
+    color: #F2E5CC!important;
+    font-size: 18px!important;
+    padding: 10px 10px 30px 10px;
+    height: 50px;
+    width: 350px;
+}
+/*
+* Portfolio
+*/
+
+.card-link {
+    color: rgba(255, 255, 255, .5);
+}
+
